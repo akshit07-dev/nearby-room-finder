@@ -1,0 +1,143 @@
+/* ==========================================================================
+   RoomFinder Map View Styles
+   ========================================================================== */
+
+.rf-map-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 480px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-sm);
+  background: #e2e8f0;
+}
+
+.rf-map-wrapper--split {
+  height: calc(100vh - 120px);
+  position: sticky;
+  top: 90px;
+}
+
+.rf-map-wrapper--map {
+  height: calc(100vh - 180px);
+  min-height: 600px;
+}
+
+.rf-leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.rf-map-indicator {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(8px);
+  padding: 6px 12px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-sm);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-main);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rf-map-indicator small {
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+/* Custom Leaflet Popups */
+.rf-custom-leaflet-popup .leaflet-popup-content-wrapper {
+  padding: 0;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-xl);
+  border: 1px solid var(--border-subtle);
+}
+
+.rf-custom-leaflet-popup .leaflet-popup-content {
+  margin: 0;
+  width: 250px !important;
+}
+
+.rf-map-popup {
+  display: flex;
+  flex-direction: column;
+}
+
+.rf-map-popup--user {
+  padding: 10px 14px;
+  font-size: 12px;
+  color: var(--text-main);
+}
+
+.rf-map-popup__img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.rf-map-popup__body {
+  padding: 12px;
+}
+
+.rf-map-popup__type {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 2px;
+  display: block;
+}
+
+.rf-map-popup__title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-main);
+  line-height: 1.3;
+  margin-bottom: 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.rf-map-popup__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 6px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.rf-map-popup__price {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  color: var(--primary);
+  font-size: 14px;
+}
+
+.rf-map-popup__btn {
+  background: var(--primary);
+  color: white;
+  padding: 4px 10px;
+  border-radius: var(--radius-xs);
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.rf-map-popup__btn:hover {
+  background: var(--primary-hover);
+}

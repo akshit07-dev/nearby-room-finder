@@ -1,0 +1,145 @@
+/* ==========================================================================
+   RoomFinder Compare Modal Styles
+   ========================================================================== */
+
+.rf-compare-modal {
+  max-width: 900px;
+}
+
+.rf-compare-header-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.rf-compare-icon {
+  color: var(--primary);
+}
+
+.rf-compare-header-title h3 {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--text-main);
+}
+
+.rf-compare-header-title p {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.rf-compare-body {
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.rf-compare-table {
+  display: flex;
+  flex-direction: column;
+  min-width: 600px;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.rf-compare-row {
+  display: grid;
+  grid-template-columns: 200px repeat(auto-fit, minmax(180px, 1fr));
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.rf-compare-row:last-child {
+  border-bottom: none;
+}
+
+.rf-compare-row--cards {
+  background: var(--bg-app);
+}
+
+.rf-compare-label-cell {
+  padding: 14px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--bg-card-subtle);
+  display: flex;
+  align-items: center;
+  border-right: 1px solid var(--border-subtle);
+}
+
+.rf-compare-card-cell {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-right: 1px solid var(--border-subtle);
+}
+
+.rf-compare-card-top {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+
+.rf-compare-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rf-compare-delete-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: rgba(15, 23, 42, 0.6);
+  color: white;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.rf-compare-delete-btn:hover {
+  background: var(--accent-rose);
+}
+
+.rf-compare-room-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-main);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rf-compare-room-price {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.rf-compare-val-cell {
+  padding: 12px 16px;
+  font-size: 13px;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-right: 1px solid var(--border-subtle);
+}
+
+.rf-compare-check {
+  color: var(--accent-emerald);
+}
+
+.rf-compare-minus {
+  color: var(--text-light);
+}
+
+.rf-text-blue {
+  color: var(--primary);
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "visit-1",
+    "userId": "user-seeker-1",
+    "roomId": "room-1",
+    "roomTitle": "Sunny Studio with Balcony & High-Speed Wi-Fi",
+    "visitType": "in_person",
+    "visitDate": "Tomorrow",
+    "visitTimeSlot": "4:00 PM - 6:00 PM",
+    "visitorName": "Rahul Sharma",
+    "visitorPhone": "+91 98765 43210",
+    "status": "confirmed",
+    "notes": "Looking forward to viewing the balcony and study setup.",
+    "createdAt": "2026-02-18T10:00:00.000Z"
+  },
+  {
+    "id": "visit-2",
+    "userId": "user-seeker-1",
+    "roomId": "room-4",
+    "roomTitle": "Premium Executive Single Room in Tech Gated Society",
+    "visitType": "video_tour",
+    "visitDate": "This Saturday",
+    "visitTimeSlot": "11:00 AM - 1:00 PM",
+    "visitorName": "Rahul Sharma",
+    "visitorPhone": "+91 98765 43210",
+    "status": "pending",
+    "notes": "Please schedule Google Meet or WhatsApp video tour.",
+    "createdAt": "2026-02-20T14:30:00.000Z"
+  }
+]

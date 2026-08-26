@@ -1,0 +1,44 @@
+[
+  {
+    "id": "user-seeker-1",
+    "name": "Rahul Sharma",
+    "email": "rahul.sharma@example.com",
+    "passwordHash": "$2a$10$a.vtMKnMPoDtN7Ltai58ZuCqHEgHIoX6VKDA59DwNANNDBdn0n8cS",
+    "role": "Verified Room Seeker",
+    "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=200&q=80",
+    "phone": "+91 98765 43210",
+    "bio": "Software engineer moving to Koramangala. Clean, quiet, and friendly.",
+    "savedRoomIds": [
+      "room-1",
+      "room-4"
+    ],
+    "createdAt": "2026-01-10T10:00:00.000Z"
+  },
+  {
+    "id": "user-owner-1",
+    "name": "Vikram Mehta",
+    "email": "vikram.mehta@example.com",
+    "passwordHash": "$2a$10$a.vtMKnMPoDtN7Ltai58ZuCqHEgHIoX6VKDA59DwNANNDBdn0n8cS",
+    "role": "Property Owner (Superhost)",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+    "phone": "+91 98450 12890",
+    "bio": "Superhost managing 4 verified properties across Koramangala and HSR Layout.",
+    "savedRoomIds": [],
+    "createdAt": "2025-11-15T08:30:00.000Z"
+  },
+  {
+    "id": "user-seeker-2",
+    "name": "Sneha Roy",
+    "email": "sneha.roy@example.com",
+    "passwordHash": "$2a$10$a.vtMKnMPoDtN7Ltai58ZuCqHEgHIoX6VKDA59DwNANNDBdn0n8cS",
+    "role": "Verified Room Seeker",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80",
+    "phone": "+91 99887 11223",
+    "bio": "Product designer looking for single studio or shared 2 BHK near Indiranagar.",
+    "savedRoomIds": [
+      "room-2",
+      "room-5"
+    ],
+    "createdAt": "2026-02-01T12:00:00.000Z"
+  }
+]

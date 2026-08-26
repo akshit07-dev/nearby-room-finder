@@ -1,0 +1,183 @@
+/* ==========================================================================
+   RoomFinder Auth Modal Styles
+   ========================================================================== */
+
+.rf-auth-modal {
+  max-width: 440px;
+}
+
+.rf-auth-header-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rf-auth-icon {
+  color: var(--primary);
+}
+
+.rf-auth-header-title h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.rf-auth-header-title p {
+  font-size: 11.5px;
+  color: var(--text-muted);
+}
+
+.rf-auth-body {
+  padding: 24px;
+}
+
+/* Quick Demo Box */
+.rf-auth-demo-box {
+  background: var(--primary-light);
+  border: 1px dashed var(--primary-100);
+  border-radius: var(--radius-md);
+  padding: 12px;
+  margin-bottom: 18px;
+}
+
+.rf-demo-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--primary);
+  display: block;
+  margin-bottom: 8px;
+}
+
+.rf-demo-btn-group {
+  display: flex;
+  gap: 8px;
+}
+
+.rf-demo-btn {
+  flex: 1;
+  background: #ffffff;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+  font-size: 12px;
+  color: var(--text-main);
+  text-align: center;
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+
+.rf-demo-btn:hover {
+  background: #eff6ff;
+  border-color: var(--primary);
+}
+
+.rf-auth-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--text-light);
+  font-size: 12px;
+  margin: 16px 0;
+}
+
+.rf-auth-divider::before,
+.rf-auth-divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.rf-auth-divider span {
+  padding: 0 10px;
+}
+
+.rf-input-icon-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.rf-input-icon-wrap svg {
+  position: absolute;
+  left: 12px;
+  color: var(--text-muted);
+}
+
+.rf-input-icon-wrap .rf-form-input {
+  padding-left: 36px;
+}
+
+.rf-auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.rf-auth-toggle-row {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.rf-auth-link {
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Profile View */
+.rf-auth-profile-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.rf-auth-big-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+  border: 3px solid var(--primary-100);
+}
+
+.rf-auth-profile-view h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.rf-auth-email {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.rf-auth-stats-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background: var(--bg-app);
+  padding: 14px;
+  border-radius: var(--radius-md);
+  margin: 18px 0;
+}
+
+.rf-auth-stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.rf-auth-stat strong {
+  font-size: 18px;
+  color: var(--primary);
+}
+
+.rf-auth-stat span {
+  font-size: 11px;
+  color: var(--text-muted);
+}

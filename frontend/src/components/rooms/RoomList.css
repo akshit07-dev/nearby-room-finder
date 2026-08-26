@@ -1,0 +1,70 @@
+/* ==========================================================================
+   RoomFinder Room List & Grid Layouts
+   ========================================================================== */
+
+.rf-room-grid {
+  display: grid;
+  gap: 20px;
+}
+
+/* Split View Grid (Left side of split screen) */
+.rf-room-grid--split {
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+
+/* Full Width Grid View */
+.rf-room-grid--grid {
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+}
+
+/* Empty State */
+.rf-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 24px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: var(--radius-xl);
+  border: 1px dashed var(--border-subtle);
+  margin: 20px 0;
+}
+
+.rf-empty-state__icon-wrap {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: var(--primary-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.rf-empty-state__icon {
+  color: var(--primary);
+}
+
+.rf-empty-state__title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 8px;
+}
+
+.rf-empty-state__desc {
+  font-size: 14px;
+  color: var(--text-muted);
+  max-width: 480px;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+  .rf-room-grid--split,
+  .rf-room-grid--grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}

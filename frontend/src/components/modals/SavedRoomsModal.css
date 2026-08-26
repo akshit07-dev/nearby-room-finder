@@ -1,0 +1,153 @@
+/* ==========================================================================
+   RoomFinder Saved Rooms Modal Styles
+   ========================================================================== */
+
+.rf-saved-modal {
+  max-width: 620px;
+}
+
+.rf-saved-header-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rf-saved-header-title h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.rf-saved-header-title p {
+  font-size: 11.5px;
+  color: var(--text-muted);
+}
+
+.rf-saved-clear-btn {
+  font-size: 12px;
+  color: var(--accent-rose);
+  font-weight: 600;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.rf-saved-clear-btn:hover {
+  text-decoration: underline;
+}
+
+.rf-saved-body {
+  padding: 20px;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.rf-saved-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.rf-saved-empty-icon {
+  color: var(--text-light);
+  margin-bottom: 14px;
+}
+
+.rf-saved-empty h4 {
+  font-size: 17px;
+  color: var(--text-main);
+  margin-bottom: 6px;
+}
+
+.rf-saved-empty p {
+  font-size: 13px;
+  color: var(--text-muted);
+  max-width: 320px;
+}
+
+.rf-saved-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.rf-saved-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px;
+  background: var(--bg-app);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  transition: all 0.15s ease;
+}
+
+.rf-saved-item:hover {
+  border-color: #cbd5e1;
+  background: #ffffff;
+  box-shadow: var(--shadow-sm);
+}
+
+.rf-saved-thumb {
+  width: 90px;
+  height: 75px;
+  border-radius: var(--radius-sm);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.rf-saved-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.rf-saved-title {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--text-main);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rf-saved-address {
+  font-size: 11.5px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rf-saved-price {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.rf-saved-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.rf-saved-delete-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: var(--text-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.rf-saved-delete-btn:hover {
+  background: var(--accent-rose-light);
+  color: var(--accent-rose);
+}

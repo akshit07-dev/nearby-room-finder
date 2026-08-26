@@ -1,0 +1,58 @@
+[
+  {
+    "id": "koramangala",
+    "name": "Koramangala, Bangalore",
+    "lat": 12.9352,
+    "lng": 77.6245,
+    "tag": "Tech & Cafe Hub",
+    "avgRent": "₹14,000"
+  },
+  {
+    "id": "hsr",
+    "name": "HSR Layout, Bangalore",
+    "lat": 12.9121,
+    "lng": 77.6446,
+    "tag": "Startups & Greenery",
+    "avgRent": "₹16,500"
+  },
+  {
+    "id": "indiranagar",
+    "name": "Indiranagar, Bangalore",
+    "lat": 12.9784,
+    "lng": 77.6408,
+    "tag": "Nightlife & Metro",
+    "avgRent": "₹19,000"
+  },
+  {
+    "id": "whitefield",
+    "name": "Whitefield, Bangalore",
+    "lat": 12.9698,
+    "lng": 77.75,
+    "tag": "IT Parks & Malls",
+    "avgRent": "₹13,500"
+  },
+  {
+    "id": "btm",
+    "name": "BTM Layout, Bangalore",
+    "lat": 12.9166,
+    "lng": 77.6101,
+    "tag": "Budget & Student Friendly",
+    "avgRent": "₹10,500"
+  },
+  {
+    "id": "powai",
+    "name": "Powai, Mumbai",
+    "lat": 19.1176,
+    "lng": 72.906,
+    "tag": "Lake Views & IIT",
+    "avgRent": "₹22,000"
+  },
+  {
+    "id": "cybercity",
+    "name": "Cyber City, Gurgaon",
+    "lat": 28.4905,
+    "lng": 77.0898,
+    "tag": "Corporate & Metro",
+    "avgRent": "₹18,000"
+  }
+]

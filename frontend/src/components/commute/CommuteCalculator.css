@@ -1,0 +1,224 @@
+/* ==========================================================================
+   RoomFinder Commute Calculator Styles
+   ========================================================================== */
+
+.rf-commute-page {
+  padding-bottom: 60px;
+}
+
+.rf-commute-hero {
+  background: radial-gradient(100% 100% at 50% 0%, #eff6ff 0%, #f8fafc 100%);
+  padding: 40px 24px;
+  border-bottom: 1px solid var(--border-subtle);
+  text-align: center;
+}
+
+.rf-commute-hero__inner {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rf-commute-heading {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.rf-commute-sub {
+  font-size: 15px;
+  color: var(--text-muted);
+  max-width: 620px;
+  margin-bottom: 24px;
+}
+
+.rf-dest-pill-group {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rf-dest-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 14px;
+  border-radius: var(--radius-full);
+  border: 1.5px solid var(--border-subtle);
+  background: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-main);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.rf-dest-pill small {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.rf-dest-pill:hover {
+  border-color: #cbd5e1;
+  background-color: var(--bg-card-subtle);
+}
+
+.rf-dest-pill.active {
+  background-color: var(--primary-light);
+  border-color: var(--primary);
+  color: var(--primary);
+  box-shadow: 0 4px 10px rgba(21, 94, 239, 0.15);
+}
+
+.rf-dest-pill.active small {
+  color: var(--primary);
+}
+
+/* Results */
+.rf-commute-results {
+  max-width: var(--max-width);
+  margin: 32px auto 0;
+  padding: 0 24px;
+}
+
+.rf-commute-results__header {
+  margin-bottom: 24px;
+}
+
+.rf-commute-results__header h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.rf-commute-results__header p {
+  font-size: 13.5px;
+  color: var(--text-muted);
+}
+
+.rf-commute-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 24px;
+}
+
+.rf-commute-card {
+  background: #ffffff;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.rf-commute-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: #cbd5e1;
+}
+
+.rf-commute-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.rf-commute-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.rf-commute-room-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.rf-commute-dist-tag {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--primary);
+  background: var(--primary-light);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+}
+
+.rf-commute-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 4px;
+}
+
+.rf-commute-address {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+.rf-commute-times-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  background: var(--bg-app);
+  padding: 12px 8px;
+  border-radius: var(--radius-md);
+  margin-bottom: 16px;
+}
+
+.rf-commute-time-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2px;
+}
+
+.rf-time-icon {
+  margin-bottom: 2px;
+}
+
+.rf-time-icon.walk { color: #10b981; }
+.rf-time-icon.bike { color: #0284c7; }
+.rf-time-icon.transit { color: #8b5cf6; }
+.rf-time-icon.drive { color: #f59e0b; }
+
+.rf-commute-time-box strong {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--text-main);
+  white-space: nowrap;
+}
+
+.rf-commute-time-box span {
+  font-size: 10px;
+  color: var(--text-muted);
+}
+
+.rf-commute-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-subtle);
+  margin-top: auto;
+}
+
+.rf-commute-rent {
+  font-family: var(--font-heading);
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--primary);
+}
